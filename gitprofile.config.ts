@@ -33,20 +33,35 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          title: 'Distracted-Driver-MultiAction-Classification',
+          description: 'This project classifies driver actions into 10 distinct classes using a deep learning model based on MobileNetV2.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/Sdark19/Distracted-Driver-MultiAction-Classification',
         },
         {
-          title: 'Project Name',
+          title: 'quora_spam_detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This project implements a deep learning model to detect spam questions on Quora using a bidirectional LSTM architecture.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/Sdark19/quora_spam_detection',
+        },
+         {
+          title: 'pharma-counterfeit-analysis',
+          description:
+            'This project focuses on analyzing counterfeit pharmaceutical sales data using machine learning techniques. The goal is to predict counterfeit sales based on various features such as medicine type, area distribution, and other relevant attributes.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Sdark19/pharma-counterfeit-analysis',
+        },
+         {
+          title: 'Hazard_Score_Prediction',
+          description:
+            'This project focuses on predicting the hazard score for maintenance tasks in heavy equipment operations. The goal is to assess the potential danger associated with these tasks before they are executed, enabling organizations to implement appropriate safety measures proactively. The dataset provided contains masked features related to maintenance tasks, and the target variable is the hazard score. The project involves building a predictive model using the training dataset and generating predictions for the test dataset.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Sdark19/Hazard_Score_Prediction',
         },
       ],
     },
@@ -57,83 +72,80 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'suswar sawant',
+    email: 'suswarsawantcd19@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1dVSi4p5Maysny6530gbWw_3Cmw3QoePP/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'Numpy',
+    'FireDucks',
+    'TensorFlow',
     'MySQL',
-    'PostgreSQL',
+    'Pytorch',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Chatbot Development',
+    'Feature Engineering',
+    'Fine Tuning',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'STEP ONE STEP AHEAD',
+      position: 'Senior RPA Developer',
+      from: 'JULY 2022',
+      to: 'October 2024',
+      companyLink: 'https://www.steponestepahead.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Advanced Certification in AI & Machine Learning from IIT, Kanpur.',
+      body: 'Advanced Certification in AI & Machine Learning',
+      year: 'January 2025',
+      link: 'https://drive.google.com/file/d/17zt2oOTJBXIHeQfv6muldbnw8fBuWWnb/view',
+    },
+    {
+      name: 'Certified Data Analyst using SQL from Edvancer.',
+      body: 'Certified Data Analyst using SQL',
+      year: 'January 2025',
+      link: 'https://drive.google.com/file/d/1Q8dbh3RKhZ_UhEFAdQGWGez8WmOh_HvO/view',
+    },
+    {
+      name: 'Certified Deep Learning Expert from Edvancer.',
+      body: 'Certified Deep Learning Expert',
+      year: 'January 2025',
+      link: 'https://drive.google.com/file/d/1wwA-IJ9NJd9cZ_a-fI2miE87HtPplRMr/view',
+    },
+    {
+      name: 'Certified Machine Learning Expert from Edvancer.',
+      body: 'Certified Machine Learning Expert',
+      year: 'January 2025',
+      link: 'https://drive.google.com/file/d/1PzfG91WVLufd56uJ3l_Qjm8_7Jt7nM9m/view',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'VIDYALANKAR POLYTECHNIC',
+      degree: 'DIPLOMA (ELECTRONICS AND TELE-COMMUNICATION)',
+      from: '2017',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'SVKM',
+      degree: 'B. TECH (MECHATRONICS)',
+      from: '2019',
+      to: '2022',
+    },
+    {
+      institution: 'K J SOMAIYA',
+      degree: 'M. TECH (ARTIFICAL INTELLIGENCE AND DATA SCIENCE)',
+      from: '2024',
+      to: 'present',
     },
   ],
   publications: [
@@ -156,20 +168,6 @@ const CONFIG = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
   themeConfig: {
     defaultTheme: 'lofi',
 
@@ -232,15 +230,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
-  enablePWA: true,
 };
 
 export default CONFIG;
