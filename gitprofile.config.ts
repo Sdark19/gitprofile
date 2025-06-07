@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Sdark19/Distracted-Driver-MultiAction-Classification', 'Sdark19/AI_Enhanced_Self_Healing_RPA_Invoice_Processing_System','Sdark19/quora_spam_detection','Sdark19/pharma-counterfeit-analysis','Sdark19/Hazard_Score_Prediction'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Suswar Sawant',
     description: '',
     imageURL: '',
   },
